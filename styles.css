@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif; 
+    margin: 0; 
+    padding: 0; 
+    background-color: #f0f0f0; 
+}
+
+header {
+    background-color: #3f51b5;
+    color: white; 
+    padding: 10px 20px;
+    text-align: center; 
+}
+
+h1 {
+    margin: 0; 
+    font-size: 1.5rem;
+}
+
+main {
+    padding: 20px; 
+}
+
+.gempa-info {
+    margin-bottom: 20px;
+    padding: 10px; 
+    background-color: #ffffff; 
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); 
+}
+
+.gempa-info img {
+    max-width: 100%; 
+    height: auto; 
+}
+
+.daftar-gempa {
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 10px; 
+}
+
+.gempa-item {
+    border-bottom: 1px solid #ccc; 
+    padding: 10px 0; 
+}
+
+#install-button {
+    position: fixed;
+    bottom: 20px; 
+    right: 20px; 
+    padding: 10px 20px; 
+    background-color: #4CAF50; 
+    color: #fff; 
+    border: none;
+    cursor: pointer; 
+    border-radius: 5px; 
+    display: none;
+}
+
+ /* CSS untuk layar dengan lebar maksimum 600px */
+@media only screen and (max-width: 600px) {
+    header {
+        padding: 5px 10px;
+    }
+    h1 {
+        font-size: 1.2rem;
+    }
+    main {
+        padding: 10px; 
+    }
+    .gempa-info {
+        padding: 5px;
+    }
+    .daftar-gempa {
+        padding: 5px;
+    }
+}
